@@ -40,7 +40,7 @@ def postar_tweet():
             client.create_tweet(text=f"Hoje tem Vasco! O Gigante entra em campo contra o(a) {oponente} em um jogo amistoso às {hora}.")
     else:
         if dias_faltando > 1:
-            client.create_tweet(text=f"Faltam {dias_faltando} dias para o Vasco3 entrar em campo contra o(a) {oponente} pelo(a) {competicao}.")
+            client.create_tweet(text=f"Faltam {dias_faltando} dias para o Vasco entrar em campo contra o(a) {oponente} pelo(a) {competicao}.")
         elif dias_faltando == 1:
             client.create_tweet(text=f"Falta {dias_faltando} dia para o Vasco entrar em campo contra o(a) {oponente} pelo(a) {competicao}.")
         else:
